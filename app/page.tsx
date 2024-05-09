@@ -12,7 +12,7 @@ export default function Page() {
       <div  className="flex items-center ">
         <img src="https://github.com/christian1209.png" alt="Descripción de la imagen" className="rounded-full w-24 h-24 mb-8 mr-16 mt-10"></img>
         <div>
-          <p >  I'm Christian Figueroa, a 23-year-old computer engineering student from Mexico, passionate about web development and application development in general.  </p>
+          <p >  My name is Christian M. Figueroa, a 23-year-old computer engineering student from Mexico, passionate about web development and application development in general.  </p>
         </div>
       </div>
       <p className="mb-4">
@@ -24,11 +24,11 @@ I thrive on challenges and enjoy pushing myself to the limit.`}
       </p>
       <p className="mb-4">{`
 
-In my portfolio, you'll find a sampling of my projects and work, where I've applied my skills in web and application development.`}
+In my portfolio, you'll find a sampling of my projects and work where I've applied my skills in web and application development (check Projects Link at the top of the page ).`}
       </p>
       <p className="mb-4">{`
 
-Thank you for visiting my portfolio, and I hope you enjoy exploring my work. Feel free to reach out if you have any questions!`}
+Thank you for visiting my portfolio and I hope you enjoy exploring my work. Feel free to reach me out if you have any questions!`}
       </p>
     </section>
   )
