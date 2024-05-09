@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { FaHome } from "react-icons/fa";
+import { GiCubes } from "react-icons/gi";
 
 const navItems = {
   '/': {
@@ -25,7 +27,8 @@ export function Navbar() {
                   href={path}
                   className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
                 >
-                  {name}
+                   {name === 'Home' ?  <div className='mt-2 mr-2'> <FaHome className='w-9 h-9' / > </div> : <div className='mt-2 mr-2'> <GiCubes className='w-9 h-9' /> </div> }
+                  <p className="font-bold text-lg  mt-4 mr-5">{name}</p>
                 </Link>
               )
             })}
